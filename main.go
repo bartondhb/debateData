@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"os"
 	"regexp"
+	"sort"
 	"strconv"
 	"strings"
 )
@@ -52,8 +53,11 @@ func summarize(debates *[]Debate) ([][]string, error) {
 	// Create a slice of string slices to be used by the CSV Writer
 	var rows [][]string
 
+	sortedIssues := getIssues(debates)
+
+	sort.Sort(sort.Reverse(sort.StringSlice(sortedIssues)))
 	// Build the header based on collection of issues discussed in each debate
-	header := append([]string{"Date", "Candidate"}, getIssues(debates)...)
+	header := append([]string{"Date", "Candidate"}, sortedIssues...)
 
 	// add the header to the CSV
 	rows = append(rows, header)

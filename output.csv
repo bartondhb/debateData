@@ -1,8 +1,8 @@
-Date,Candidate,Jobs,Voting Rights,Democracy,Economy,Healthcare,Minimum Wage,Foreign Policy,Education,Environment
-1/1/2021,Candidate A,1,0,1,1,0,0,0,2,1
-1/1/2021,Candidate B,0,0,0,1,1,1,0,0,0
-1/1/2021,Candidate C,1,1,0,0,1,0,1,0,0
-6/1/2021,Candidate A,1,0,0,0,1,0,0,1,0
-6/1/2021,Candidate B,0,1,0,0,2,0,0,0,1
-6/1/2021,Candidate C,1,0,1,0,0,0,1,0,0
-,Total,4,2,2,2,5,1,2,3,2
+Date,Candidate,Voting Rights,Minimum Wage,Jobs,Healthcare,Foreign Policy,Environment,Education,Economy,Democracy
+1/1/2021,Candidate C,1,0,1,1,1,0,0,0,0
+1/1/2021,Candidate A,0,0,1,0,0,1,2,1,1
+1/1/2021,Candidate B,0,1,0,1,0,0,0,1,0
+6/1/2021,Candidate C,0,0,1,0,1,0,0,0,1
+6/1/2021,Candidate A,0,0,1,1,0,0,1,0,0
+6/1/2021,Candidate B,1,0,0,2,0,1,0,0,0
+,Total,2,1,4,5,2,2,3,2,2
